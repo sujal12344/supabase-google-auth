@@ -1,0 +1,22 @@
+{
+  "name": "zz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && node backend/server.js",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend && npm run build --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujal12344/supabase-google-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujal12344/supabase-google-auth/issues"
+  },
+  "homepage": "https://github.com/sujal12344/supabase-google-auth#readme",
+  "description": ""
+}

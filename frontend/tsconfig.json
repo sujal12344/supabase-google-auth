@@ -6,6 +6,7 @@
   ],
   "compilerOptions": {
     "strict": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "moduleResolution": "node16"
   }
 }
